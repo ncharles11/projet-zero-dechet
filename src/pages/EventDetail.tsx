@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import { mockEvents } from '../data/events';
-import { ArrowLeft, MapPin, Calendar, Users, Clock, Tag } from 'lucide-react';
+import { ArrowLeft, MapPin, Calendar, Users, Clock} from 'lucide-react';
 
 const EventDetail = () => {
   const { id } = useParams<{ id: string }>();
